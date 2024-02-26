@@ -26,6 +26,7 @@ export const {
     }),
     // ...add more providers here
   ],
+  secret: AUTH_SECRET,
   callbacks: {
     // Ususally not needed, here we are fixing a bug in nextauth
     async session({ session, user }: any) {
